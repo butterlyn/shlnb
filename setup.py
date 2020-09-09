@@ -1,30 +1,24 @@
-## DO NOT CHANGE
 import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-## CUSTOMISE WITH PACKAGE DETAILS. `#` entries require updating
-
 required_modules = list([ # update list with all modules used in package
-    #   'numpy>=1.11.3',
-    #   'numba >=0.40.0',
-    #   'scipy>=0.1.0',
-    #   'scikit-learn>=0.19.1',
-    #   'tables>=3.4.4',
-    #   'traits>=4.6.0',
-      'setuptools',	
+       'numpy>=1.11.3',
+       'setuptools',
+       'pybnk',
+       'soundfile'
 	])
 
 setuptools.setup(
-    name="[[MODULE-NAME]]", # insert module name
+    name= 'shlnb',
     version="0.0.1", # update to latest release version
     author="Nicholas Butterly",
     author_email="butterlyn888@gmail.com",
-    description="A small example package", # update with one-sentence package description
+    description="Beamforming and signal analysis of ULA",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/butterlyn/[[MODULE-NAME]]", # specify url to package in github
+    url="https://github.com/butterlyn/SHLNB",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
