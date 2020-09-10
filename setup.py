@@ -4,18 +4,19 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 required_modules = list([ # update list with all modules used in package
-       'numpy>=1.11.3',
-       'setuptools',
-       'pybnk',
-       'soundfile'
-	])
+        'numpy>=1.11.3',
+        'setuptools',
+        'arlpy',
+        'pybnk',
+        'soundfile'
+        ])
 
 setuptools.setup(
     name= 'shlnb',
-    version="0.0.2", # update to latest release version
+    version="0.0.3", # update to latest release version
     author="Nicholas Butterly",
     author_email="butterlyn888@gmail.com",
-    description="Beamforming and signal analysis of ULA",
+    description="Beamforming and signal analysis of microphone ULA",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/butterlyn/SHLNB",

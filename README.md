@@ -12,14 +12,16 @@ sudo apt-get update | sudo apt-get install python3 python3-pip | python3 -m pip 
 ## USAGE EXAMPLE:
 
 ```python
-from shlnb import shlnb
-
-shlnb.
+from shlnb.shlnb import *
 ```
 
 ## RELEASE HISTORY:
 
-* 0.0.1 - yyyy-mm-dd
+* 0.0.3 - 2020-09-11
+    * FIXED: find_extrema(), standard deviation threshold for outliers increased from 3 to 8
+* 0.0.2 - 2020-09-11
+    * Bug fixes
+* 0.0.1 - 2020-09-10
     * Initial release
 
 ## META:
